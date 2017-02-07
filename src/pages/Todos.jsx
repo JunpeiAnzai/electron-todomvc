@@ -6,7 +6,7 @@ import * as TodoActions from '../actions/TodoActions.jsx';
 export default class Todos extends React.Component {
     constructor() {
         super();
-        this.getTodos ^ this.getTodos.bind(this);
+        this.getTodos = this.getTodos.bind(this);
         this.state = {
             todos: TodoStore.getAll(),
         };
@@ -21,7 +21,7 @@ export default class Todos extends React.Component {
     }
 
     getTodos() {
-        this.setStage({
+        this.setState({
             todos: TodoStore.getAll(),
         });
     }
