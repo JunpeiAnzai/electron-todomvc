@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
-import Layout from './components/Layout.jsx';
+import Layout from './pages/Layout.jsx';
 import Page1 from './components/Page1.jsx';
 import Page2 from './components/Page2.jsx';
 import Page3 from './components/Page3.jsx';

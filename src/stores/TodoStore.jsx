@@ -1,5 +1,5 @@
 import {EventEmitter} from 'events';
-import dispatcher from './dispatcher.jsx';
+import dispatcher from '../dispatcher.js';
 
 class TodoStore extends EventEmitter {
     constructor() {

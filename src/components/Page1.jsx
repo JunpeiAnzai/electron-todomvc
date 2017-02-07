@@ -1,7 +1,7 @@
 import React from 'react';
 import Todo from './Todo.jsx';
-import TodoStore from './TodoStore.jsx';
-import * as TodoAction from './TodoAction.jsx';
+import TodoStore from '../stores/TodoStore.jsx';
+import * as TodoAction from '../actions/TodoAction.jsx';
 
 export default class Page1 extends React.Component {
     constructor() {
