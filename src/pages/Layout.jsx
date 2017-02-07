@@ -13,7 +13,7 @@ export default class Layout extends React.Component {
 
                 <Link to='/'>Todos </Link>
                 <Link to='favorites'>Favorites </Link>
-                <Link to='page3'>Show Page3 </Link>
+                <Link to='settings'>Settings </Link>
             </div>
         );
     }
