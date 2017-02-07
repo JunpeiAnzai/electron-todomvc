@@ -1,9 +1,9 @@
 import React from 'react';
-import Todo from './Todo.jsx';
+import Todo from '../components/Todo.jsx';
 import TodoStore from '../stores/TodoStore.jsx';
 import * as TodoAction from '../actions/TodoAction.jsx';
 
-export default class Page1 extends React.Component {
+export default class Todos extends React.Component {
     constructor() {
         super();
         this.state = {

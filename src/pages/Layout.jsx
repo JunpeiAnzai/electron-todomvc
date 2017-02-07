@@ -11,8 +11,8 @@ export default class Layout extends React.Component {
 
                 {this.props.children}
 
-                <Link to='/'>Show Todos </Link>
-                <Link to='page2'>Show Page2 </Link>
+                <Link to='/'>Todos </Link>
+                <Link to='favorites'>Favorites </Link>
                 <Link to='page3'>Show Page3 </Link>
             </div>
         );

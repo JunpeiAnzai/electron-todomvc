@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Page2 extends React.Component {
+export default class Favorites extends React.Component {
 
     render () {
         return (
